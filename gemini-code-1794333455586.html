@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAprender - Inteligência Artificial na Escola</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --secondary: #818cf8;
+            --bg-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .intro h2 {
+            color: var(--primary);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1e293b;
+            color: white;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IAprender</h1>
+        <p>Descubra como a Inteligência Artificial pode transformar a sua rotina escolar!</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>O que é a IA na Educação?</h2>
+            <p>A Inteligência Artificial não serve apenas para criar imagens ou vídeos. Ela é uma ferramenta poderosa para ajudar estudantes e professores a aprenderem mais rápido, organizarem melhor os estudos e resolverem dúvidas complexas.</p>
+        </section>
+
+        <div class="grid">
+            <div class="card">
+                <h3>📚 Tutor Particular</h3>
+                <p>Com a IA, você pode tirar dúvidas de qualquer matéria 24 horas por dia. Ela explica conceitos difíceis de forma simples, adaptando a linguagem ao seu nível de entendimento.</p>
+            </div>
+
+            <div class="card">
+                <h3>⏱️ Organização e Planejamento</h3>
+                <p>Precisa montar um cronograma de estudos para as provas? A IA pode criar um plano personalizado com base nos dias e horários que você tem disponíveis, evitando o estresse.</p>
+            </div>
+
+            <div class="card">
+                <h3>✍️ Revisão de Textos</h3>
+                <p>Escreveu uma redação ou um trabalho? Ferramentas de IA ajudam a verificar a gramática, sugerem melhorias no vocabulário e apontam pontos que podem ser mais bem explicados.</p>
+            </div>
+
+            <div class="card">
+                <h3>🧩 Criação de Resumos e Mapas Mentais</h3>
+                <p>Transforme textos longos de apostilas ou livros em resumos práticos, tópicos principais ou perguntas de estudo para testar o seu próprio conhecimento antes das avaliações.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌍 Prática de Idiomas</h3>
+                <p>Quer praticar inglês, espanhol ou outro idioma? Você pode conversar com assistentes virtuais de IA como se estivesse falando com um nativo, ganhando mais fluência e confiança.</p>
+            </div>
+
+            <div class="card">
+                <h3>💡 Geração de Ideias</h3>
+                <p>Está sem criatividade para escolher o tema de um trabalho escolar ou de uma feira de ciências? Peça sugestões inovadoras e pontos de partida para o seu projeto.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 IAprender. Desenvolvido para ajudar estudantes a explorarem o potencial da IA de forma consciente.</p>
+    </footer>
+
+</body>
+</html>
